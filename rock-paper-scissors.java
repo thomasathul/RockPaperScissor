@@ -28,7 +28,7 @@ class rockpaperscissors
       {
           Scanner sc = new Scanner(System.in);
           
-          System.out.println("Enter user input (R=[Rock],P=[Paper],S=[Scissor]");
+          System.out.println("Enter user input (R=[Rock],P=[Paper],S=[Scissor])");
           char c = sc.next().charAt(0);
 
           System.out.println("---------------------------------------");
